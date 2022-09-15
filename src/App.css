@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body,th,td,input,select,textarea,button{font-size:14px;line-height:1.5;font-family:'NotoSans','Apple SD Gothic Neo','Malgun Gothic','맑은 고딕','돋움', dotum, sans-serif;font-weight:300;color:#000}
+
+.fs-5 {font-size: 0.5rem;}
+.fs-6 {font-size: 0.6rem;}
+.fs-7 {font-size: 0.7rem;}
+.fs-8 {font-size: 0.8rem;}
+.fs-9 {font-size: 0.9rem;}
+.fs-10 {font-size: 1.0rem;}
+.fs-11 {font-size: 1.1rem;}
+.fs-12 {font-size: 1.2rem;}
+.fs-13 {font-size: 1.3rem;}
+.fs-14 {font-size: 1.4rem;}
+.fs-15 {font-size: 1.5rem;}
+.fs-16 {font-size: 1.6rem;}
+.fs-17 {font-size: 1.9rem;}
+.fs-18 {font-size: 1.9rem;}
+.fs-19 {font-size: 1.9rem;}
+.fs-20 {font-size: 2.0rem;}
+.fs-23 {font-size: 2.3rem;}
+.fs-25 {font-size: 2.5rem;}
+.fs-30 {font-size: 3rem;}
+.fs-40 {font-size: 4rem;}
+.fs-50 {font-size: 5rem;}
+
+.pointer {cursor: pointer;}
+.hover:hover {color: #fcbc20;}
+
+.smb-logo {
+  background-image: url('https://www.smoneyback.co.kr/dist/img/logo/smb_logo_E.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 56px;
+}
+
+.main-container {
+  margin: 20px 17.4%;
+}
+
+/* pop up */
+.popup {
+  background-color: #fff;
+  margin-bottom: 0 !important;
+}
+
+/* main-header */
+.input-search {
+  width: 100%;
+  padding: .3rem 2rem .3rem .5rem;
+  border: 0;
+  border-bottom: 2px solid #000;
+}
+.input-search:focus {
+  outline: none;
+}
+
+.sign-button {
+  color: #9a9b9c;
+  background-color: transparent;
+  border: 1px solid #e9eaeb;
+}
+.sign-button:hover {
+  color: #fff;
+  background-color: #fcbc20;
+  border: 1px solid #fcbc20;
+}
+
+.main-menu {
+  font-size: 14px;
+  color: #6b6c6d;
+  text-align: center;
+  padding: .5rem;
+  border: 1px solid #dee2e6;
+  border-left: 0;
+  cursor: pointer;
+}
+.main-menu:hover {
+  color: #000;
+  background-color: #fcbc20;
+  border-color: #fcbc20;
+  border-left: 0;
+  -moz-transition: all .25s ease-in;
+  -webkit-transition: all .25s ease-in;
+  -o-transition: all .25s ease-in;
+  transition: all .25s ease-in;
+}
+.main-menu.active {
+  color: #000;
+  background-color: #fcbc20;
+  border-color: #fcbc20;
+  border-left: 0;
+}
+
+.banner-left {
+  font-size: 14px;
+  border-left: 1px solid #f0f1f2;
+  border-bottom: 1px solid #f0f1f2;
+}
+.banner-left .banner-category {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 1rem .5rem 1.5rem;
+  cursor: pointer;
+}
+.banner-left .banner-category span {
+  display: none;
+}
+.banner-left .banner-category.active {
+  color: #ff0000;
+  font-weight: 800;
+}
+.banner-left .banner-category.active span{
+  display: inline-block;
+}
+
+.banner-right {
+  border: 1px solid #f0f1f2;
+}
+
+
+
+@media (max-width: 991px) {
+  .main-container {
+    margin: 0;
+  }
+  .popup {
+    background-color: #F2F3F4;
+  }
+  .input-search {
+    border: 1px solid #c8c9c9;
+    border-radius: 25px;
+  }
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
